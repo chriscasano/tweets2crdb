@@ -10,6 +10,6 @@ create table tweets
   CONSTRAINT “primary” PRIMARY KEY (id ASC)
 );
 
-create user maxroach with password maxroach;
+create user maxroach;
 
 grant all on database twitter to maxroach;
