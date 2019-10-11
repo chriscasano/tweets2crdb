@@ -2,6 +2,8 @@
 
 This repo quickly demonstrates how to get tweets and insert them into CockroackDB.  This was done using NiFi 1.9.2 and CockroackDB 19.1.5
 
+![alt text](tweets2crdb.png)
+
 <b>Roadmap</b>
 
 - A NiFi flow for Change Data Capture (CRDB -> NiFi -> Wherever)
