@@ -25,7 +25,7 @@ You can quickly use Homebrew to install NiFi if on a Mac
 
 ...or you can download it from Apache or Cloudera
 
-Once NiFi is running, you can import the tweets2crdb.xml template in this repo.  Once imported, you'll have to configure the 
+Once NiFi is running, you can import the tweets2crdb.xml template in this repo.  Once imported, you'll have to configure the Contoller Services
 
 <b>Configure NiFi Controller Services</b>
 
