@@ -1,5 +1,7 @@
 create database twitter;
 
+use twitter;
+
 create table tweets
 (
   country string,
@@ -10,6 +12,6 @@ create table tweets
   CONSTRAINT “primary” PRIMARY KEY (id ASC)
 );
 
-create user maxroach;
-
-grant all on database twitter to maxroach;
+create user jack with password dorsey;
+grant all on database twitter to jack;
+grant all on table tweets to jack;
